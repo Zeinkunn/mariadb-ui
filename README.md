@@ -32,30 +32,28 @@ git clone https://github.com/yourusername/mariadb-ui.git
 cd mariadb-ui
 ```
 
-### 2. Setup the Backend
-The backend requires the `mariadb` driver and Express to connect to your database.
+### 2. Install Dependencies
+Install packages for both the backend and frontend at the same time:
 ```console
-cd backend
 npm install
-npm run dev
+cd frontend && npm install
+cd ..
 ```
-The backend server will start on `http://localhost:3001`.
 
-### 3. Setup the Frontend
-Open a new terminal window and navigate to the frontend directory.
+### 3. Run the App
+Start both the API backend and the Vite frontend simultaneously with one command:
 ```console
-cd frontend
-npm install
 npm run dev
 ```
-The frontend development server will start on `http://localhost:5173`.
+- The backend API will run on `http://localhost:3001`
+- The Vite frontend will serve on `http://localhost:5173`
 
 ### 4. Connect
 Open `http://localhost:5173` in your browser. Enter your MariaDB credentials (host, port, username, password) to connect and start managing your databases!
 
 ## Screenshots
 
-*(Add screenshots of your UI here - e.g., Dashboard, Query Editor, Data Grid, Schema Builder, Server Status)*
+
 
 ## Contributing
 
