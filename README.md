@@ -34,20 +34,20 @@ cd mariadb-ui
 
 ### 2. Setup the Backend
 The backend requires the `mariadb` driver and Express to connect to your database.
-\`\`\`bash
+```console
 cd backend
 npm install
 npm run dev
-\`\`\`
+```
 The backend server will start on `http://localhost:3001`.
 
 ### 3. Setup the Frontend
 Open a new terminal window and navigate to the frontend directory.
-\`\`\`bash
+```console
 cd frontend
 npm install
 npm run dev
-\`\`\`
+```
 The frontend development server will start on `http://localhost:5173`.
 
 ### 4. Connect
