@@ -27,10 +27,10 @@ A modern, lightweight, and fully functional Web UI for managing MariaDB database
 ## Getting Started
 
 ### 1. Clone the repository
-\`\`\`bash
+```console
 git clone https://github.com/yourusername/mariadb-ui.git
 cd mariadb-ui
-\`\`\`
+```
 
 ### 2. Setup the Backend
 The backend requires the `mariadb` driver and Express to connect to your database.
